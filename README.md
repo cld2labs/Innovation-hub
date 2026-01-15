@@ -113,15 +113,3 @@ policies:
   https://github.com/Cloud2Labs/innovation-hub/blob/main/DISCLAIMER.md
 
 ---
-
-## 🏗️ About Cloud2 Labs
-
-**Cloud2 Labs** is an organization focused on experimentation, learning, and
-innovation in AI and modern software systems.
-
-The Innovation Hub is where ideas turn into practical, shareable blueprints.
-
----
-
-**Cloud2 Labs Innovation Hub**  
-Open AI Blueprints · Experimentation · Applied Learning
