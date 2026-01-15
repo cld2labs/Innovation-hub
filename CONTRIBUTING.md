@@ -17,6 +17,7 @@ with the Cloud2 Labs maintainers.
 2. Create a feature or fix branch
 3. Submit a clear and concise pull request
 4. Ensure documentation is updated where applicable
+5. All submissions, including those by project members, require review.
 
 ## Code Quality
 - Follow existing coding and documentation standards
