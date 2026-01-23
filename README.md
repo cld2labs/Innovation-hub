@@ -50,8 +50,6 @@ All blueprints published here are:
 
 ---
 
----
-
 ## 🧭 How to Use the Innovation Hub
 
 1. Browse the **AI Blueprint Catalog**
