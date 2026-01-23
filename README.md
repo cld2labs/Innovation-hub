@@ -8,7 +8,7 @@
 # Cloud2 Labs – Innovation Hub 
 
 The **Innovation Hub** is an initiative by **Cloud2 Labs** focused on building
-and sharing **open, free-to-use AI blueprints**.
+and sharing **open source , free-to-use AI blueprints**.
 
 These blueprints are designed to help anyone **learn, experiment, and explore
 modern AI workflows** through practical, hands-on reference implementations.
@@ -44,7 +44,8 @@ All blueprints published here are:
 
 | Blueprint | What It Demonstrates | Repository |
 |---------|----------------------|------------|
-| **FinSights** | Financial document ingestion and structured LLM summarization with human-in-the-loop review | https://github.com/Cloud2Labs/finsights-blueprint |
+| **FinSights** | Financial document ingestion and structured LLM summarization with human-in-the-loop review | https://github.com/cld2labs/FinSights |
+| **CliniQ** | Clinical Q & A driven by your own documents  | https://github.com/cld2labs/CliniQ |
 | **More Coming Soon** | Additional AI workflows and experimentation-driven blueprints | — |
 
 ---
