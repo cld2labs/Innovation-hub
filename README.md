@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img src="Docs/assets/InnovationHub-HeaderImage(1).png" width="800" alt="Company Logo">
+  <img src="InnovationHub-HeaderImage(1).png" width="800" alt="Company Logo">
 </p>
 
 
