@@ -1,4 +1,11 @@
-# Cloud2 Labs – Innovation Hub (AI Blueprints)
+
+<p align="center">
+  <img src="Docs/assets/InnovationHub-HeaderImage.png" width="800" alt="Company Logo">
+</p>
+
+
+
+# Cloud2 Labs – Innovation Hub 
 
 The **Innovation Hub** is an initiative by **Cloud2 Labs** focused on building
 and sharing **open, free-to-use AI blueprints**.
