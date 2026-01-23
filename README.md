@@ -1,8 +1,8 @@
 
-<p align="center">
-  <img src="InnovationHub-HeaderImage(1).png" width="800" alt="Company Logo">
-</p>
 
+<p align="center">
+  <img src="./InnovationHub-HeaderImage%20(1).png" width="800" alt="Company Logo">
+</p>
 
 
 # Cloud2 Labs – Innovation Hub 
