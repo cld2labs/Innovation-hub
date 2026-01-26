@@ -1,7 +1,7 @@
 
 
 <p align="center">
-  <img src="./InnovationHub-HeaderImage%20(1).png" width="800" alt="Company Logo">
+  <img src="docs\assets\InnovationHub-HeaderImage (1).png" width="800" alt="Company Logo">
 </p>
 
 
@@ -76,7 +76,7 @@ They:
 - Require **independent human review** of all AI-generated outputs
 
 📄 Full disclaimer:  
-https://github.com/Cloud2Labs/innovation-hub/blob/main/DISCLAIMER.md
+https://github.com/cld2labs/innovation-hub/blob/main/DISCLAIMER.md
 
 ---
 
@@ -87,7 +87,7 @@ Anyone using them beyond experimentation is responsible for implementing
 appropriate security, compliance, and operational safeguards.
 
 📄 Security policy:  
-https://github.com/Cloud2Labs/innovation-hub/blob/main/SECURITY.md
+https://github.com/cld2labs/innovation-hub/blob/main/SECURITY.md
 
 ---
 
@@ -102,7 +102,7 @@ You can contribute by:
 - Adding educational examples
 
 📄 Contribution guidelines:  
-https://github.com/Cloud2Labs/innovation-hub/blob/main/CONTRIBUTING.md
+https://github.com/cld2labs/innovation-hub/blob/main/CONTRIBUTING.md
 
 ---
 
@@ -112,10 +112,10 @@ All AI blueprints published under the Innovation Hub follow Cloud2 Labs
 policies:
 
 - License  
-  https://github.com/Cloud2Labs/innovation-hub/blob/main/LICENSE.md
+  https://github.com/cld2labs/innovation-hub/blob/main/LICENSE.md
 - Terms and Conditions  
-  https://github.com/Cloud2Labs/innovation-hub/blob/main/TERMS_AND_CONDITIONS.md
+  https://github.com/cld2labs/innovation-hub/blob/main/TERMS_AND_CONDITIONS.md
 - Disclaimer  
-  https://github.com/Cloud2Labs/innovation-hub/blob/main/DISCLAIMER.md
+  https://github.com/cld2labs/innovation-hub/blob/main/DISCLAIMER.md
 
 ---
