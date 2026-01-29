@@ -45,7 +45,7 @@ All blueprints published here are:
 | Blueprint | What It Demonstrates | Repository |
 |---------|----------------------|------------|
 | **FinSights** | Financial document ingestion and structured LLM summarization with human-in-the-loop review | https://github.com/cld2labs/FinSights |
-| **CliniQ** | Clinical Q & A driven by your own documents  | https://github.com/cld2labs/CliniQ |
+| **ClinIQ** | Clinical Q & A driven by your own documents  | https://github.com/cld2labs/CliniQ |
 | **More Coming Soon** | Additional AI workflows and experimentation-driven blueprints | — |
 
 ---
