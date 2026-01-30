@@ -1,0 +1,6 @@
+{
+  "version": "0.2",
+  "language": "en",
+  "words": ["innovation-hub", "cloud2", "labs"],
+  "ignorePaths": ["node_modules/**", "docs/assets/**"]
+}

@@ -1,0 +1,108 @@
+name: PR Security & Docs Checks
+on:
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  changes:
+    name: Detect changed files
+    runs-on: ubuntu-latest
+    outputs:
+      md: ${{ steps.filter.outputs.md }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Detect relevant changes
+        uses: dorny/paths-filter@v2
+        id: filter
+        with:
+          filters: |
+            md:
+              - 'DISCLAIMER.md'
+              - '**/*.md'
+
+  markdown:
+    name: Markdown lint, links & spellcheck
+    needs: changes
+    if: needs.changes.outputs.md == 'true'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+      - name: Install tools
+        run: npm install -g markdownlint-cli markdown-link-check cspell alex
+      - name: Markdown lint
+        run: markdownlint -c .config/.markdownlint.json "**/*.md"
+      - name: Link check
+        run: markdown-link-check -q "**/*.md"
+      - name: Spellcheck
+        run: cspell --config .config/.cspell.json "**/*.md"
+      - name: Content tone check (alex)
+        run: npx alex --config .config/.alexrc "**/*.md"
+
+  malicious-content:
+    name: Scan for suspicious/malicious patterns in Markdown
+    needs: changes
+    if: needs.changes.outputs.md == 'true'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Search for suspicious patterns
+        run: |
+          set -e
+          echo "Scanning Markdown files for suspicious patterns..."
+          # Patterns: script tags, eval, base64, powershell encoded, remote fetches, dangerous shell ops
+          if grep -EnR --exclude-dir=node_modules --include="*.md" -n -E "(<script|eval\(|base64_|base64\(|powershell\s+.*-enc|curl\s+http|wget\s+http|rm\s+-rf|chmod\s+777)" .; then
+            echo "Potential malicious pattern found in Markdown files." >&2
+            exit 1
+          fi
+
+  semgrep:
+    name: Semgrep security rules
+    needs: changes
+    if: needs.changes.outputs.md == 'true'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run Semgrep
+        uses: returntocorp/semgrep-action@v1
+        with:
+          config: p/ci
+
+  gitleaks:
+    name: Secret scan (Gitleaks)
+    needs: changes
+    if: needs.changes.outputs.md == 'true'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run Gitleaks
+        uses: zricethezav/gitleaks-action@v2
+        with:
+          args: detect
+
+  clamav:
+    name: ClamAV scan
+    needs: changes
+    if: needs.changes.outputs.md == 'true'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install ClamAV
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y clamav clamav-daemon
+          sudo freshclam || true
+      - name: Run clamscan
+        run: clamscan -r --infected --no-summary
+
+  dependency-review:
+    name: Dependency review
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Dependency review
+        uses: github/dependency-review-action@v2
