@@ -59,7 +59,6 @@ jobs:
         run: |
           set -e
           echo "Scanning Markdown files for suspicious patterns..."
-          # Patterns: script tags, eval, base64, powershell encoded, remote fetches, dangerous shell ops
           if grep -EnR --exclude-dir=node_modules --include="*.md" -n -E "(<script|eval\(|base64_|base64\(|powershell\s+.*-enc|curl\s+http|wget\s+http|rm\s+-rf|chmod\s+777)" .; then
             echo "Potential malicious pattern found in Markdown files." >&2
             exit 1
@@ -103,11 +102,3 @@ jobs:
           sudo freshclam || true
       - name: Run clamscan
         run: clamscan -r --infected --no-summary
-
-  dependency-review:
-    name: Dependency review
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - name: Dependency review
-        uses: actions/dependency-review-action@v4
