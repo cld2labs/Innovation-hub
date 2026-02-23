@@ -46,6 +46,8 @@ All blueprints published here are:
 |---------|----------------------|------------|
 | **FinSights** | Financial document ingestion and structured LLM summarization with human-in-the-loop review | https://github.com/cld2labs/FinSights |
 | **ClinIQ** | Clinical Q & A driven by your own documents  | https://github.com/cld2labs/CliniQ |
+| **Audify** | Microservices-based AI application that converts PDF, DOC, and DOCX documents into editable podcast scripts and downloadable audio episodes | https://github.com/cld2labs/Audify |
+| **SynapseMart** | Microservices-based marketplace platform for product ingestion, catalog management, and intelligent natural-language search | https://github.com/cld2labs/SynapseMart |
 | **More Coming Soon** | Additional AI workflows and experimentation-driven blueprints | — |
 
 ---
