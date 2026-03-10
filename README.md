@@ -48,6 +48,8 @@ All blueprints published here are:
 | **ClinIQ** | Clinical Q & A driven by your own documents  | https://github.com/cld2labs/CliniQ |
 | **Audify** | AI-powered microservices platform that converts PDF, DOC, and DOCX files into editable podcast scripts and downloadable podcast episodes.| https://github.com/cld2labs/Audify |
 | **SynapseMart** | Microservices-based marketplace platform for product ingestion, catalog management, and intelligent natural-language search | https://github.com/cld2labs/SynapseMart |
+| **VisiSense** | AI-powered visual product intelligence for retail merchandising teams using multi-provider vision models. | https://github.com/cld2labs/VisiSense |
+| **CodeTrans** | An AI-powered full-stack application that translates source code between programming languages. | https://github.com/cld2labs/CodeTrans |
 | **More Coming Soon** | Additional AI workflows and experimentation-driven blueprints | — |
 
 ---
