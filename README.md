@@ -46,11 +46,12 @@ All blueprints published here are:
 | **FinSights** | Financial document ingestion and structured LLM summarization with human-in-the-loop review | [github.com/cld2labs/FinSights](https://github.com/cld2labs/FinSights) |
 | **ClinIQ** | Clinical Q & A driven by your own documents | [github.com/cld2labs/CliniQ](https://github.com/cld2labs/CliniQ) |
 | **Audify** | AI-powered microservices platform that converts PDF, DOC, and DOCX files into editable podcast scripts and downloadable podcast episodes. | [github.com/cld2labs/Audify](https://github.com/cld2labs/Audify) |
-| **SynapseMart** | Microservices-based marketplace platform for product ingestion, catalog management, and intelligent natural-language search | [github.com/cld2labs/SynapseMart](https://github.com/cld2labs/SynapseMart) |
 | **VisiSense** | AI-powered visual product intelligence for retail merchandising teams using multi-provider vision models. | [github.com/cld2labs/VisiSense](https://github.com/cld2labs/VisiSense) |
 | **CodeTrans** | An AI-powered full-stack application that translates source code between programming languages. | [github.com/cld2labs/CodeTrans](https://github.com/cld2labs/CodeTrans) |
 | **OmniRoute** | AI-powered multi-agent platform for transportation operations. | [github.com/cld2labs/OmniRoute](https://github.com/cld2labs/OmniRoute) |
 | **Vaani Sahayak (वाणी सहायक)** | Sovereign AI-powered Hindi voice assistant for Indian government welfare schemes. | [github.com/cld2labs/VaaniSahayak](https://github.com/cld2labs/VaaniSahayak) |
+| **DocuBot** | AI-powered documentation generator that analyzes GitHub repositories and produces structured project docs with multi-agent LLM workflows. | [github.com/cld2labs/DocuBot](https://github.com/cld2labs/DocuBot) |
+| **SynapseMart** | Microservices-based marketplace platform for product ingestion, catalog management, and intelligent natural-language search | Coming Soon |
 | **More Coming Soon** | Additional AI workflows and experimentation-driven blueprints | — |
 
 ---
