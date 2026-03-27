@@ -51,6 +51,8 @@ All blueprints published here are:
 | **OmniRoute** | AI-powered multi-agent platform for transportation operations. | [github.com/cld2labs/OmniRoute](https://github.com/cld2labs/OmniRoute) |
 | **Vaani Sahayak (वाणी सहायक)** | Sovereign AI-powered Hindi voice assistant for Indian government welfare schemes. | [github.com/cld2labs/VaaniSahayak](https://github.com/cld2labs/VaaniSahayak) |
 | **DocuBot** | AI-powered documentation generator that analyzes GitHub repositories and produces structured project docs with multi-agent LLM workflows. | [github.com/cld2labs/DocuBot](https://github.com/cld2labs/DocuBot) |
+| **MediScript AI** | AI-powered clinical documentation app that turns patient-doctor conversations into transcripts, SOAP notes, medical terms, and billing code suggestions without storing patient data. | [github.com/cld2labs/MediScriptAI](https://github.com/cld2labs/MediScriptAI) |
+| **SpecForge** | AI-powered app that generates system design specifications with diagrams, data models, API designs, and implementation plans from your project idea and targeted inputs. | [github.com/cld2labs/SpecForge](https://github.com/cld2labs/SpecForge) |
 | **SynapseMart** | Microservices-based marketplace platform for product ingestion, catalog management, and intelligent natural-language search | Coming Soon |
 | **More Coming Soon** | Additional AI workflows and experimentation-driven blueprints | — |
 
