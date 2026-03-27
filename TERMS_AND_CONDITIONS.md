@@ -10,6 +10,7 @@ Cloud2 Labs makes no guarantees regarding the accuracy, completeness,
 reliability, or suitability of the software or any outputs generated from it.
 
 You agree that you are solely responsible for:
+
 - Deployment and configuration
 - Data handling and storage
 - Security controls

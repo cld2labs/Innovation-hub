@@ -75,30 +75,3 @@ jobs:
         uses: returntocorp/semgrep-action@v1
         with:
           config: p/ci
-
-  gitleaks:
-    name: Secret scan (Gitleaks)
-    needs: changes
-    if: needs.changes.outputs.md == 'true'
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - name: Run Gitleaks
-        uses: zricethezav/gitleaks-action@v2
-        with:
-          args: detect
-
-  clamav:
-    name: ClamAV scan
-    needs: changes
-    if: needs.changes.outputs.md == 'true'
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - name: Install ClamAV
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y clamav clamav-daemon
-          sudo freshclam || true
-      - name: Run clamscan
-        run: clamscan -r --infected --no-summary

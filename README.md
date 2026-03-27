@@ -1,11 +1,8 @@
-
-
 <p align="center">
   <img src="docs\assets\InnovationHub-HeaderImage (1).png" width="800" alt="Company Logo">
 </p>
 
-
-# Cloud2 Labs – Innovation Hub 
+# Cloud2 Labs – Innovation Hub
 
 The **Innovation Hub** is an initiative by **Cloud2 Labs** focused on building
 and sharing **open source , free-to-use AI blueprints**.
@@ -19,17 +16,20 @@ under the Cloud2 Labs Innovation Hub.
 > These blueprints are **reference implementations**, not production-ready
 > systems. They are designed to help engineers, researchers, and students
 > understand how modern AI systems can be structured and connected.
+
 ---
 
 ## 🚀 What Is the Innovation Hub?
 
 The Cloud2 Labs **Innovation Hub** is a space for:
+
 - Exploring real-world AI use cases
 - Demonstrating practical LLM workflows
 - Sharing reusable AI patterns and ideas
 - Encouraging experimentation and learning
 
 All blueprints published here are:
+
 - **Open**
 - **Free to use**
 - **Reference implementations**
@@ -39,18 +39,18 @@ All blueprints published here are:
 
 ## 🧩 AI Blueprint Catalog
 
-
 ### ⭐ Available Blueprints
 
 | Blueprint | What It Demonstrates | Repository |
-|---------|----------------------|------------|
-| **FinSights** | Financial document ingestion and structured LLM summarization with human-in-the-loop review | https://github.com/cld2labs/FinSights |
-| **ClinIQ** | Clinical Q & A driven by your own documents  | https://github.com/cld2labs/CliniQ |
-| **Audify** | AI-powered microservices platform that converts PDF, DOC, and DOCX files into editable podcast scripts and downloadable podcast episodes.| https://github.com/cld2labs/Audify |
-| **SynapseMart** | Microservices-based marketplace platform for product ingestion, catalog management, and intelligent natural-language search | https://github.com/cld2labs/SynapseMart |
-| **VisiSense** | AI-powered visual product intelligence for retail merchandising teams using multi-provider vision models. | https://github.com/cld2labs/VisiSense |
-| **CodeTrans** | An AI-powered full-stack application that translates source code between programming languages. | https://github.com/cld2labs/CodeTrans |
-| **OmniRoute** | AI-powered multi-agent platform for transportation operations. | https://github.com/cld2labs/OmniRoute |
+| --------- | ---------------------- | ------------ |
+| **FinSights** | Financial document ingestion and structured LLM summarization with human-in-the-loop review | [github.com/cld2labs/FinSights](https://github.com/cld2labs/FinSights) |
+| **ClinIQ** | Clinical Q & A driven by your own documents | [github.com/cld2labs/CliniQ](https://github.com/cld2labs/CliniQ) |
+| **Audify** | AI-powered microservices platform that converts PDF, DOC, and DOCX files into editable podcast scripts and downloadable podcast episodes. | [github.com/cld2labs/Audify](https://github.com/cld2labs/Audify) |
+| **SynapseMart** | Microservices-based marketplace platform for product ingestion, catalog management, and intelligent natural-language search | [github.com/cld2labs/SynapseMart](https://github.com/cld2labs/SynapseMart) |
+| **VisiSense** | AI-powered visual product intelligence for retail merchandising teams using multi-provider vision models. | [github.com/cld2labs/VisiSense](https://github.com/cld2labs/VisiSense) |
+| **CodeTrans** | An AI-powered full-stack application that translates source code between programming languages. | [github.com/cld2labs/CodeTrans](https://github.com/cld2labs/CodeTrans) |
+| **OmniRoute** | AI-powered multi-agent platform for transportation operations. | [github.com/cld2labs/OmniRoute](https://github.com/cld2labs/OmniRoute) |
+| **Vaani Sahayak (वाणी सहायक)** | Sovereign AI-powered Hindi voice assistant for Indian government welfare schemes. | [github.com/cld2labs/VaaniSahayak](https://github.com/cld2labs/VaaniSahayak) |
 | **More Coming Soon** | Additional AI workflows and experimentation-driven blueprints | — |
 
 ---
@@ -63,6 +63,7 @@ All blueprints published here are:
 4. Run, modify, and experiment with the workflow
 
 Every blueprint repository includes:
+
 - Setup and execution instructions
 - Blueprint-specific notices and policies
 - Clear explanations of the AI workflow
@@ -75,13 +76,14 @@ All AI blueprints provided through the Cloud2 Labs Innovation Hub are offered
 **"as is"** and **"as available"**.
 
 They:
+
 - Are **not production-ready**
 - Are **not regulatory-compliant**
 - Do **not** include production-grade security by default
 - Require **independent human review** of all AI-generated outputs
 
-📄 Full disclaimer:  
-https://github.com/cld2labs/innovation-hub/blob/main/DISCLAIMER.md
+📄 Full disclaimer:
+[github.com/cld2labs/innovation-hub/blob/main/DISCLAIMER.md](https://github.com/cld2labs/innovation-hub/blob/main/DISCLAIMER.md)
 
 ---
 
@@ -91,8 +93,8 @@ Blueprints in the Innovation Hub are not hardened for production use.
 Anyone using them beyond experimentation is responsible for implementing
 appropriate security, compliance, and operational safeguards.
 
-📄 Security policy:  
-https://github.com/cld2labs/innovation-hub/blob/main/SECURITY.md
+📄 Security policy:
+[github.com/cld2labs/innovation-hub/blob/main/SECURITY.md](https://github.com/cld2labs/innovation-hub/blob/main/SECURITY.md)
 
 ---
 
@@ -101,13 +103,14 @@ https://github.com/cld2labs/innovation-hub/blob/main/SECURITY.md
 Contributions to the Innovation Hub are welcome.
 
 You can contribute by:
+
 - Improving documentation
 - Fixing bugs
 - Enhancing clarity or usability
 - Adding educational examples
 
-📄 Contribution guidelines:  
-https://github.com/cld2labs/innovation-hub/blob/main/CONTRIBUTING.md
+📄 Contribution guidelines:
+[github.com/cld2labs/innovation-hub/blob/main/CONTRIBUTING.md](https://github.com/cld2labs/innovation-hub/blob/main/CONTRIBUTING.md)
 
 ---
 
@@ -116,11 +119,11 @@ https://github.com/cld2labs/innovation-hub/blob/main/CONTRIBUTING.md
 All AI blueprints published under the Innovation Hub follow Cloud2 Labs
 policies:
 
-- License  
-  https://github.com/cld2labs/innovation-hub/blob/main/LICENSE.md
-- Terms and Conditions  
-  https://github.com/cld2labs/innovation-hub/blob/main/TERMS_AND_CONDITIONS.md
-- Disclaimer  
-  https://github.com/cld2labs/innovation-hub/blob/main/DISCLAIMER.md
+- License
+  [github.com/cld2labs/innovation-hub/blob/main/LICENSE.md](https://github.com/cld2labs/innovation-hub/blob/main/LICENSE.md)
+- Terms and Conditions
+  [github.com/cld2labs/innovation-hub/blob/main/TERMS_AND_CONDITIONS.md](https://github.com/cld2labs/innovation-hub/blob/main/TERMS_AND_CONDITIONS.md)
+- Disclaimer
+  [github.com/cld2labs/innovation-hub/blob/main/DISCLAIMER.md](https://github.com/cld2labs/innovation-hub/blob/main/DISCLAIMER.md)
 
 ---
