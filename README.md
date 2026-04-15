@@ -53,6 +53,9 @@ All blueprints published here are:
 | **MediScript AI**              | AI-powered clinical documentation app that turns patient-doctor conversations into transcripts, SOAP notes, medical terms, and billing code suggestions without storing patient data. | [github.com/cld2labs/MediScriptAI](https://github.com/cld2labs/MediScriptAI) |
 | **SpecForge**                  | AI-powered app that generates system design specifications with diagrams, data models, API designs, and implementation plans from your project idea and targeted inputs.              | [github.com/cld2labs/SpecForge](https://github.com/cld2labs/SpecForge)       |
 | **SynapseMart**                | Microservices-based marketplace platform for product ingestion, catalog management, and intelligent natural-language search                                                           | [github.com/cld2labs/SynapseMart](https://github.com/cld2labs/SynapseMart)   |
+| **AccessIQ**                   | MCP-based authorization for protected data access using RBAC and ABAC.                                                                                                                | [github.com/cld2labs/AccessIQ](https://github.com/cld2labs/AccessIQ)         |
+| **CareXtract**                 | Structured field extraction from medical and care documents using vision-capable models.                                                                                              | [github.com/cld2labs/CareXtract](https://github.com/cld2labs/CareXtract)     |
+| **MediVaultAI**                | Fully offline clinical transcription, SOAP note generation, and retrieval-augmented Q&A.                                                                                             | [github.com/cld2labs/MediVaultAI](https://github.com/cld2labs/MediVaultAI)   |
 | **More Coming Soon**           | Additional AI workflows and experimentation-driven blueprints                                                                                                                         | —                                                                            |
 
 
@@ -130,4 +133,3 @@ policies:
 [github.com/cld2labs/innovation-hub/blob/main/DISCLAIMER.md](https://github.com/cld2labs/innovation-hub/blob/main/DISCLAIMER.md)
 
 ---
-
